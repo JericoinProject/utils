@@ -5,5 +5,5 @@ tar -zxvf glibc-2.28.tar.gz
 mkdir glibc-2.28/build
 cd glibc-2.28/build
 ../configure --prefix=/opt/glibc
-sudo make 
+make 
 sudo make install
